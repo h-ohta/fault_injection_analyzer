@@ -7,7 +7,7 @@
 ```bash
 # for each terminals
 $ ros2 launch autoware_launch planning_simulator.launch.xml vehicle_model:=[your_vehicle] sensor_model:=[your_sensor] map_path:=[/your/map/path]
-$ ros2 launch fault_injection fault_injection.launch.xml log-level:=debug
+$ ros2 launch fault_injection fault_injection.launch.xml log-level:=debug config_file:=[your/config/path]
 $ ros2 run rqt_robot_monitor rqt_robot_monitor
 ```
 
